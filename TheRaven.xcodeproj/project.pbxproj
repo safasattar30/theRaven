@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711E2D571A2C0DDA007FA158 /* PlayAgainRav.png in Resources */ = {isa = PBXBuildFile; fileRef = 711E2D561A2C0DDA007FA158 /* PlayAgainRav.png */; };
+		716C472C1A0868080032CD40 /* plumeMini3.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C472B1A0868080032CD40 /* plumeMini3.png */; };
+		716C472E1A08680C0032CD40 /* raven4.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C472D1A08680C0032CD40 /* raven4.png */; };
+		716C47301A0871CE0032CD40 /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C472F1A0871CE0032CD40 /* Title.png */; };
+		716C47321A0872AD0032CD40 /* TitleEnd.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C47311A0872AD0032CD40 /* TitleEnd.png */; };
+		716C47341A0872F80032CD40 /* TitleEnd2.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C47331A0872F80032CD40 /* TitleEnd2.png */; };
+		717BAC261A08093B00A68D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BAC251A08093B00A68D68 /* Foundation.framework */; };
+		717BAC281A08093B00A68D68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BAC271A08093B00A68D68 /* CoreGraphics.framework */; };
+		717BAC2A1A08093B00A68D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BAC291A08093B00A68D68 /* UIKit.framework */; };
+		717BAC301A08093B00A68D68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC2E1A08093B00A68D68 /* InfoPlist.strings */; };
+		717BAC321A08093B00A68D68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717BAC311A08093B00A68D68 /* main.m */; };
+		717BAC361A08093B00A68D68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 717BAC351A08093B00A68D68 /* AppDelegate.m */; };
+		717BAC391A08093B00A68D68 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC371A08093B00A68D68 /* Main_iPhone.storyboard */; };
+		717BAC3C1A08093B00A68D68 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC3A1A08093B00A68D68 /* Main_iPad.storyboard */; };
+		717BAC3F1A08093B00A68D68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717BAC3E1A08093B00A68D68 /* ViewController.m */; };
+		717BAC411A08093B00A68D68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC401A08093B00A68D68 /* Images.xcassets */; };
+		717BAC481A08093B00A68D68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BAC471A08093B00A68D68 /* XCTest.framework */; };
+		717BAC491A08093B00A68D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BAC251A08093B00A68D68 /* Foundation.framework */; };
+		717BAC4A1A08093B00A68D68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717BAC291A08093B00A68D68 /* UIKit.framework */; };
+		717BAC521A08093B00A68D68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC501A08093B00A68D68 /* InfoPlist.strings */; };
+		717BAC541A08093B00A68D68 /* TheRavenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717BAC531A08093B00A68D68 /* TheRavenTests.m */; };
+		717BAC611A0809B100A68D68 /* Parchment.png in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC601A0809B100A68D68 /* Parchment.png */; };
+		717BAC691A080B1C00A68D68 /* plumeMini1.png in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC681A080B1C00A68D68 /* plumeMini1.png */; };
+		717BAC6B1A080B2300A68D68 /* plumeMini2.png in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC6A1A080B2300A68D68 /* plumeMini2.png */; };
+		717BAC6D1A080E4500A68D68 /* raven2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC6C1A080E4500A68D68 /* raven2 copy.png */; };
+		717BAC6F1A080F1200A68D68 /* raven3 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC6E1A080F1200A68D68 /* raven3 copy.png */; };
+		717BAC711A08129B00A68D68 /* cannon-clipart-yckgLxdcE.png in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC701A08129B00A68D68 /* cannon-clipart-yckgLxdcE.png */; };
+		717BAC731A08137B00A68D68 /* cannon.png in Resources */ = {isa = PBXBuildFile; fileRef = 717BAC721A08137B00A68D68 /* cannon.png */; };
+		717BAC761A08167000A68D68 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 717BAC751A08167000A68D68 /* Game.m */; };
+		71C2DA7B1A2B0BC400022A4E /* ghost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71C2DA7A1A2B0BC400022A4E /* ghost.mp3 */; };
+		71C603631A2BC5F60078A684 /* borders.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603621A2BC5F60078A684 /* borders.png */; };
+		71C603651A2BC6D90078A684 /* borders2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603641A2BC6D90078A684 /* borders2.png */; };
+		71C603671A2BC80B0078A684 /* borderV.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603661A2BC80B0078A684 /* borderV.png */; };
+		71C6036D1A2BCDE40078A684 /* EasyRaven.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C6036C1A2BCDE40078A684 /* EasyRaven.png */; };
+		71C6036F1A2BCDEA0078A684 /* hardRaven.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C6036E1A2BCDEA0078A684 /* hardRaven.png */; };
+		71C603731A2BD2B30078A684 /* YouWinRav.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603721A2BD2B30078A684 /* YouWinRav.png */; };
+		71C603761A2BD2DF0078A684 /* TryAgainRav.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603741A2BD2DF0078A684 /* TryAgainRav.png */; };
+		71C603771A2BD2DF0078A684 /* YouLoseRav.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603751A2BD2DF0078A684 /* YouLoseRav.png */; };
+		71C603791A2BD3DD0078A684 /* StartGameRav.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603781A2BD3DD0078A684 /* StartGameRav.png */; };
+		71C6037B1A2BD3E20078A684 /* FireRav.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C6037A1A2BD3E20078A684 /* FireRav.png */; };
+		71C6037D1A2BD96F0078A684 /* TitleRav2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C6037C1A2BD96F0078A684 /* TitleRav2 copy.png */; };
+		71C6037F1A2BDDC10078A684 /* TitleRav3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C6037E1A2BDDC10078A684 /* TitleRav3.png */; };
+		71C603811A2BDEF40078A684 /* poeRav copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603801A2BDEF40078A684 /* poeRav copy.png */; };
+		71C603831A2BE1BC0078A684 /* StartRav.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C603821A2BE1BC0078A684 /* StartRav.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		717BAC4B1A08093B00A68D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717BAC1A1A08093B00A68D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717BAC211A08093B00A68D68;
+			remoteInfo = TheRaven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711E2D561A2C0DDA007FA158 /* PlayAgainRav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayAgainRav.png; sourceTree = "<group>"; };
+		716C472B1A0868080032CD40 /* plumeMini3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumeMini3.png; sourceTree = "<group>"; };
+		716C472D1A08680C0032CD40 /* raven4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raven4.png; sourceTree = "<group>"; };
+		716C472F1A0871CE0032CD40 /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		716C47311A0872AD0032CD40 /* TitleEnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleEnd.png; sourceTree = "<group>"; };
+		716C47331A0872F80032CD40 /* TitleEnd2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleEnd2.png; sourceTree = "<group>"; };
+		717BAC221A08093B00A68D68 /* TheRaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheRaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		717BAC251A08093B00A68D68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		717BAC271A08093B00A68D68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		717BAC291A08093B00A68D68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		717BAC2D1A08093B00A68D68 /* TheRaven-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheRaven-Info.plist"; sourceTree = "<group>"; };
+		717BAC2F1A08093B00A68D68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		717BAC311A08093B00A68D68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		717BAC331A08093B00A68D68 /* TheRaven-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheRaven-Prefix.pch"; sourceTree = "<group>"; };
+		717BAC341A08093B00A68D68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		717BAC351A08093B00A68D68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		717BAC381A08093B00A68D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		717BAC3B1A08093B00A68D68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		717BAC3D1A08093B00A68D68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		717BAC3E1A08093B00A68D68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		717BAC401A08093B00A68D68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		717BAC461A08093B00A68D68 /* TheRavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheRavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		717BAC471A08093B00A68D68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		717BAC4F1A08093B00A68D68 /* TheRavenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheRavenTests-Info.plist"; sourceTree = "<group>"; };
+		717BAC511A08093B00A68D68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		717BAC531A08093B00A68D68 /* TheRavenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheRavenTests.m; sourceTree = "<group>"; };
+		717BAC601A0809B100A68D68 /* Parchment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Parchment.png; sourceTree = "<group>"; };
+		717BAC681A080B1C00A68D68 /* plumeMini1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumeMini1.png; sourceTree = "<group>"; };
+		717BAC6A1A080B2300A68D68 /* plumeMini2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plumeMini2.png; sourceTree = "<group>"; };
+		717BAC6C1A080E4500A68D68 /* raven2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raven2 copy.png"; sourceTree = "<group>"; };
+		717BAC6E1A080F1200A68D68 /* raven3 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raven3 copy.png"; sourceTree = "<group>"; };
+		717BAC701A08129B00A68D68 /* cannon-clipart-yckgLxdcE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cannon-clipart-yckgLxdcE.png"; sourceTree = "<group>"; };
+		717BAC721A08137B00A68D68 /* cannon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cannon.png; sourceTree = "<group>"; };
+		717BAC741A08167000A68D68 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		717BAC751A08167000A68D68 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		717BAC771A081A4D00A68D68 /* bullet */ = {isa = PBXFileReference; lastKnownFileType = file; path = bullet; sourceTree = "<group>"; };
+		71C2DA7A1A2B0BC400022A4E /* ghost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ghost.mp3; sourceTree = "<group>"; };
+		71C603621A2BC5F60078A684 /* borders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = borders.png; sourceTree = "<group>"; };
+		71C603641A2BC6D90078A684 /* borders2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = borders2.png; sourceTree = "<group>"; };
+		71C603661A2BC80B0078A684 /* borderV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = borderV.png; sourceTree = "<group>"; };
+		71C6036C1A2BCDE40078A684 /* EasyRaven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasyRaven.png; sourceTree = "<group>"; };
+		71C6036E1A2BCDEA0078A684 /* hardRaven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardRaven.png; sourceTree = "<group>"; };
+		71C603721A2BD2B30078A684 /* YouWinRav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWinRav.png; sourceTree = "<group>"; };
+		71C603741A2BD2DF0078A684 /* TryAgainRav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TryAgainRav.png; sourceTree = "<group>"; };
+		71C603751A2BD2DF0078A684 /* YouLoseRav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLoseRav.png; sourceTree = "<group>"; };
+		71C603781A2BD3DD0078A684 /* StartGameRav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartGameRav.png; sourceTree = "<group>"; };
+		71C6037A1A2BD3E20078A684 /* FireRav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FireRav.png; sourceTree = "<group>"; };
+		71C6037C1A2BD96F0078A684 /* TitleRav2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TitleRav2 copy.png"; sourceTree = "<group>"; };
+		71C6037E1A2BDDC10078A684 /* TitleRav3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleRav3.png; sourceTree = "<group>"; };
+		71C603801A2BDEF40078A684 /* poeRav copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poeRav copy.png"; sourceTree = "<group>"; };
+		71C603821A2BE1BC0078A684 /* StartRav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartRav.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717BAC1F1A08093B00A68D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717BAC281A08093B00A68D68 /* CoreGraphics.framework in Frameworks */,
+				717BAC2A1A08093B00A68D68 /* UIKit.framework in Frameworks */,
+				717BAC261A08093B00A68D68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717BAC431A08093B00A68D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717BAC481A08093B00A68D68 /* XCTest.framework in Frameworks */,
+				717BAC4A1A08093B00A68D68 /* UIKit.framework in Frameworks */,
+				717BAC491A08093B00A68D68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717BAC191A08093B00A68D68 = {
+			isa = PBXGroup;
+			children = (
+				71C2DA7A1A2B0BC400022A4E /* ghost.mp3 */,
+				717BAC5F1A08097300A68D68 /* Images */,
+				717BAC2B1A08093B00A68D68 /* TheRaven */,
+				717BAC4D1A08093B00A68D68 /* TheRavenTests */,
+				717BAC241A08093B00A68D68 /* Frameworks */,
+				717BAC231A08093B00A68D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717BAC231A08093B00A68D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717BAC221A08093B00A68D68 /* TheRaven.app */,
+				717BAC461A08093B00A68D68 /* TheRavenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717BAC241A08093B00A68D68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				717BAC251A08093B00A68D68 /* Foundation.framework */,
+				717BAC271A08093B00A68D68 /* CoreGraphics.framework */,
+				717BAC291A08093B00A68D68 /* UIKit.framework */,
+				717BAC471A08093B00A68D68 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		717BAC2B1A08093B00A68D68 /* TheRaven */ = {
+			isa = PBXGroup;
+			children = (
+				717BAC741A08167000A68D68 /* Game.h */,
+				717BAC751A08167000A68D68 /* Game.m */,
+				717BAC341A08093B00A68D68 /* AppDelegate.h */,
+				717BAC351A08093B00A68D68 /* AppDelegate.m */,
+				717BAC371A08093B00A68D68 /* Main_iPhone.storyboard */,
+				717BAC3A1A08093B00A68D68 /* Main_iPad.storyboard */,
+				717BAC3D1A08093B00A68D68 /* ViewController.h */,
+				717BAC3E1A08093B00A68D68 /* ViewController.m */,
+				717BAC401A08093B00A68D68 /* Images.xcassets */,
+				717BAC2C1A08093B00A68D68 /* Supporting Files */,
+			);
+			path = TheRaven;
+			sourceTree = "<group>";
+		};
+		717BAC2C1A08093B00A68D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				717BAC2D1A08093B00A68D68 /* TheRaven-Info.plist */,
+				717BAC2E1A08093B00A68D68 /* InfoPlist.strings */,
+				717BAC311A08093B00A68D68 /* main.m */,
+				717BAC331A08093B00A68D68 /* TheRaven-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		717BAC4D1A08093B00A68D68 /* TheRavenTests */ = {
+			isa = PBXGroup;
+			children = (
+				717BAC531A08093B00A68D68 /* TheRavenTests.m */,
+				717BAC4E1A08093B00A68D68 /* Supporting Files */,
+			);
+			path = TheRavenTests;
+			sourceTree = "<group>";
+		};
+		717BAC4E1A08093B00A68D68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				717BAC4F1A08093B00A68D68 /* TheRavenTests-Info.plist */,
+				717BAC501A08093B00A68D68 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		717BAC5F1A08097300A68D68 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				711E2D561A2C0DDA007FA158 /* PlayAgainRav.png */,
+				71C603821A2BE1BC0078A684 /* StartRav.png */,
+				71C603801A2BDEF40078A684 /* poeRav copy.png */,
+				71C6037E1A2BDDC10078A684 /* TitleRav3.png */,
+				71C6037A1A2BD3E20078A684 /* FireRav.png */,
+				71C6037C1A2BD96F0078A684 /* TitleRav2 copy.png */,
+				71C603781A2BD3DD0078A684 /* StartGameRav.png */,
+				71C603741A2BD2DF0078A684 /* TryAgainRav.png */,
+				71C603751A2BD2DF0078A684 /* YouLoseRav.png */,
+				71C603721A2BD2B30078A684 /* YouWinRav.png */,
+				71C6036E1A2BCDEA0078A684 /* hardRaven.png */,
+				71C6036C1A2BCDE40078A684 /* EasyRaven.png */,
+				71C603661A2BC80B0078A684 /* borderV.png */,
+				71C603641A2BC6D90078A684 /* borders2.png */,
+				71C603621A2BC5F60078A684 /* borders.png */,
+				716C47331A0872F80032CD40 /* TitleEnd2.png */,
+				716C47311A0872AD0032CD40 /* TitleEnd.png */,
+				716C472F1A0871CE0032CD40 /* Title.png */,
+				716C472D1A08680C0032CD40 /* raven4.png */,
+				716C472B1A0868080032CD40 /* plumeMini3.png */,
+				717BAC771A081A4D00A68D68 /* bullet */,
+				717BAC721A08137B00A68D68 /* cannon.png */,
+				717BAC701A08129B00A68D68 /* cannon-clipart-yckgLxdcE.png */,
+				717BAC6E1A080F1200A68D68 /* raven3 copy.png */,
+				717BAC6C1A080E4500A68D68 /* raven2 copy.png */,
+				717BAC6A1A080B2300A68D68 /* plumeMini2.png */,
+				717BAC681A080B1C00A68D68 /* plumeMini1.png */,
+				717BAC601A0809B100A68D68 /* Parchment.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717BAC211A08093B00A68D68 /* TheRaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717BAC571A08093B00A68D68 /* Build configuration list for PBXNativeTarget "TheRaven" */;
+			buildPhases = (
+				717BAC1E1A08093B00A68D68 /* Sources */,
+				717BAC1F1A08093B00A68D68 /* Frameworks */,
+				717BAC201A08093B00A68D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheRaven;
+			productName = TheRaven;
+			productReference = 717BAC221A08093B00A68D68 /* TheRaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		717BAC451A08093B00A68D68 /* TheRavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717BAC5A1A08093B00A68D68 /* Build configuration list for PBXNativeTarget "TheRavenTests" */;
+			buildPhases = (
+				717BAC421A08093B00A68D68 /* Sources */,
+				717BAC431A08093B00A68D68 /* Frameworks */,
+				717BAC441A08093B00A68D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717BAC4C1A08093B00A68D68 /* PBXTargetDependency */,
+			);
+			name = TheRavenTests;
+			productName = TheRavenTests;
+			productReference = 717BAC461A08093B00A68D68 /* TheRavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717BAC1A1A08093B00A68D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Safa Sattar";
+				TargetAttributes = {
+					717BAC451A08093B00A68D68 = {
+						TestTargetID = 717BAC211A08093B00A68D68;
+					};
+				};
+			};
+			buildConfigurationList = 717BAC1D1A08093B00A68D68 /* Build configuration list for PBXProject "TheRaven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 717BAC191A08093B00A68D68;
+			productRefGroup = 717BAC231A08093B00A68D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				717BAC211A08093B00A68D68 /* TheRaven */,
+				717BAC451A08093B00A68D68 /* TheRavenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717BAC201A08093B00A68D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C603771A2BD2DF0078A684 /* YouLoseRav.png in Resources */,
+				71C6036D1A2BCDE40078A684 /* EasyRaven.png in Resources */,
+				711E2D571A2C0DDA007FA158 /* PlayAgainRav.png in Resources */,
+				717BAC691A080B1C00A68D68 /* plumeMini1.png in Resources */,
+				717BAC6F1A080F1200A68D68 /* raven3 copy.png in Resources */,
+				71C2DA7B1A2B0BC400022A4E /* ghost.mp3 in Resources */,
+				71C603791A2BD3DD0078A684 /* StartGameRav.png in Resources */,
+				717BAC3C1A08093B00A68D68 /* Main_iPad.storyboard in Resources */,
+				717BAC731A08137B00A68D68 /* cannon.png in Resources */,
+				716C472C1A0868080032CD40 /* plumeMini3.png in Resources */,
+				71C6037F1A2BDDC10078A684 /* TitleRav3.png in Resources */,
+				71C603811A2BDEF40078A684 /* poeRav copy.png in Resources */,
+				717BAC411A08093B00A68D68 /* Images.xcassets in Resources */,
+				717BAC6D1A080E4500A68D68 /* raven2 copy.png in Resources */,
+				71C6036F1A2BCDEA0078A684 /* hardRaven.png in Resources */,
+				717BAC391A08093B00A68D68 /* Main_iPhone.storyboard in Resources */,
+				71C603731A2BD2B30078A684 /* YouWinRav.png in Resources */,
+				717BAC6B1A080B2300A68D68 /* plumeMini2.png in Resources */,
+				71C603651A2BC6D90078A684 /* borders2.png in Resources */,
+				717BAC301A08093B00A68D68 /* InfoPlist.strings in Resources */,
+				717BAC611A0809B100A68D68 /* Parchment.png in Resources */,
+				71C6037D1A2BD96F0078A684 /* TitleRav2 copy.png in Resources */,
+				716C47341A0872F80032CD40 /* TitleEnd2.png in Resources */,
+				71C603671A2BC80B0078A684 /* borderV.png in Resources */,
+				716C472E1A08680C0032CD40 /* raven4.png in Resources */,
+				716C47301A0871CE0032CD40 /* Title.png in Resources */,
+				71C603631A2BC5F60078A684 /* borders.png in Resources */,
+				71C603761A2BD2DF0078A684 /* TryAgainRav.png in Resources */,
+				71C603831A2BE1BC0078A684 /* StartRav.png in Resources */,
+				71C6037B1A2BD3E20078A684 /* FireRav.png in Resources */,
+				717BAC711A08129B00A68D68 /* cannon-clipart-yckgLxdcE.png in Resources */,
+				716C47321A0872AD0032CD40 /* TitleEnd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717BAC441A08093B00A68D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717BAC521A08093B00A68D68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717BAC1E1A08093B00A68D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717BAC3F1A08093B00A68D68 /* ViewController.m in Sources */,
+				717BAC361A08093B00A68D68 /* AppDelegate.m in Sources */,
+				717BAC321A08093B00A68D68 /* main.m in Sources */,
+				717BAC761A08167000A68D68 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717BAC421A08093B00A68D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717BAC541A08093B00A68D68 /* TheRavenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		717BAC4C1A08093B00A68D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717BAC211A08093B00A68D68 /* TheRaven */;
+			targetProxy = 717BAC4B1A08093B00A68D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		717BAC2E1A08093B00A68D68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717BAC2F1A08093B00A68D68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		717BAC371A08093B00A68D68 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717BAC381A08093B00A68D68 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		717BAC3A1A08093B00A68D68 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717BAC3B1A08093B00A68D68 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		717BAC501A08093B00A68D68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717BAC511A08093B00A68D68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717BAC551A08093B00A68D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		717BAC561A08093B00A68D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717BAC581A08093B00A68D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRaven/TheRaven-Prefix.pch";
+				INFOPLIST_FILE = "TheRaven/TheRaven-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		717BAC591A08093B00A68D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRaven/TheRaven-Prefix.pch";
+				INFOPLIST_FILE = "TheRaven/TheRaven-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		717BAC5B1A08093B00A68D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheRaven.app/TheRaven";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRaven/TheRaven-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TheRavenTests/TheRavenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		717BAC5C1A08093B00A68D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TheRaven.app/TheRaven";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheRaven/TheRaven-Prefix.pch";
+				INFOPLIST_FILE = "TheRavenTests/TheRavenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717BAC1D1A08093B00A68D68 /* Build configuration list for PBXProject "TheRaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717BAC551A08093B00A68D68 /* Debug */,
+				717BAC561A08093B00A68D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717BAC571A08093B00A68D68 /* Build configuration list for PBXNativeTarget "TheRaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717BAC581A08093B00A68D68 /* Debug */,
+				717BAC591A08093B00A68D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717BAC5A1A08093B00A68D68 /* Build configuration list for PBXNativeTarget "TheRavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717BAC5B1A08093B00A68D68 /* Debug */,
+				717BAC5C1A08093B00A68D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 717BAC1A1A08093B00A68D68 /* Project object */;
+}
